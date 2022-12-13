@@ -6,8 +6,8 @@ import ListPage from './pages/ListPage/ListPage';
 import './reset.css';
 import './common.css';
 
-class App extends React.Component {
-  render() {
+const App = ()=>{
+
     return (
       <div className="app">
         <Route path="/" exact component={MainPage} />
@@ -15,6 +15,6 @@ class App extends React.Component {
       </div>
     );
   }
-}
+
 
 export default App;
